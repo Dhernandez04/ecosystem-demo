@@ -10,7 +10,8 @@ notifications:
       - deimercode@gmail.com
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - rvm reinstall ruby-head --binary
+  - gem install faraday -v 1.9.3
+  - sudo apt-get install ruby-full
 script:
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
   - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=dhernandez04 -Dsonar.login=$SONAR
