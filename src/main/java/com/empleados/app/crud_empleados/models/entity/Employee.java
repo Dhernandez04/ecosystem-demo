@@ -1,7 +1,7 @@
 package com.empleados.app.crud_empleados.models.entity;
 
 import javax.persistence.*;
-import java.io.Serializable;
+
 
 @Entity
 @Table(name = "employees")
