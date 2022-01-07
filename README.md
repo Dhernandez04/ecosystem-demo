@@ -1,6 +1,6 @@
-## [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)
+## Api rest 
 ## Ingeniería Web: Visión General (IWVG) DevOps
-> Este proyecto es una Plantilla de apoyo docente de la asignatura.
+> Este proyecto es una api rest para compreder el ecosistema de sotfware utilizando metodologias agiles
 
 ## Estado del codigo
 [![Build Status](https://app.travis-ci.com/Dhernandez04/ecosystem-demo.svg?branch=develop)](https://app.travis-ci.com/Dhernandez04/ecosystem-demo)
