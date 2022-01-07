@@ -7,6 +7,6 @@ branches:
   notifications:
     email:
       recipients:
-        - deimerhdz04@gmail.com
+        - deimercode@gmail.com
 script:
   - mvn org.jacoo:jacoco-maven-plugin:prepare-agent verify
