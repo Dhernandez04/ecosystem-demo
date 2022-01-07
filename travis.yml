@@ -8,6 +8,5 @@ branches:
     email:
       recipients:
         - deimerhdz04@gmail.com
-
 script:
   - mvn org.jacoo:jacoco-maven-plugin:prepare-agent verify
