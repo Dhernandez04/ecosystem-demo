@@ -13,7 +13,6 @@ install:
 script:
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
   - mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=dhernandez04 -Dsonar.login=$SONAR
-  - gem install faraday -v 1.9.3
 deploy:
   provider: heroku
   api_key:
