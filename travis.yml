@@ -1,0 +1,13 @@
+language: java
+branches:
+  only:
+    -develop
+    - /^release-[0-999].[0-999]$/
+    -master
+  notifications:
+    email:
+      recipients:
+        - deimerhdz04@gmail.com
+
+script:
+  - mvn org.jacoo:jacoco-maven-plugin:prepare-agent verify
