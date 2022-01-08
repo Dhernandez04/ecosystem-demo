@@ -9,7 +9,7 @@ notifications:
     recipients:
       - deimercode@gmail.com
 before_install:
-  gem install bundler -v '< 2'
+  - gem install bundler -v '< 2'
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
