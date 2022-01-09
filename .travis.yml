@@ -9,10 +9,7 @@ notifications:
     recipients:
       - deimercode@gmail.com
 before_install:
-    - yes | gem update --system --force
-    - gem install bundler
-    - gem install dpl
-    - gem install faraday -v 1.9.3
+    - gem 2.6.11
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
