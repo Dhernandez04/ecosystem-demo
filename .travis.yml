@@ -8,10 +8,8 @@ notifications:
   email:
     recipients:
       - deimercode@gmail.com
-before_install:
-  - gem install bundler -v '> 2'
-  - gem install faraday -v 1.9.3
 install:
+  - gem install rails
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
