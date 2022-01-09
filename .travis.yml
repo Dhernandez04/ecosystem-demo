@@ -9,7 +9,7 @@ notifications:
     recipients:
       - deimercode@gmail.com
 before_install:
-    - sudo apt-get update
+    - rvm install 2.6.4
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
