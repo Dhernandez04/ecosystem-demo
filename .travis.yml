@@ -9,7 +9,7 @@ notifications:
     recipients:
       - deimercode@gmail.com
 before_install:
-    - gem 2.6.11
+    - sudo apt-get update
 install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script:
